@@ -11,8 +11,7 @@ const App = () => {
   return (
     <>
     <CustumNavbar />
-    <ItemListContainer mensaje="Hola ItemListContainer" />
-    <h1 className="titulo">Los mejores jabones del Peru</h1>
+    <ItemListContainer mensaje="Los mejores jabones del Peru" />
     <Footer /> 
     
  
