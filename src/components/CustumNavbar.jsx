@@ -12,9 +12,9 @@ function CustumNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="categoria/flores">Flores</Nav.Link>
-            <Nav.Link as={Link} to="categoria/navidad">Navidad</Nav.Link>
-            <Nav.Link as={Link} to="categoria/varios">Varios</Nav.Link>
+            <Nav.Link as={Link} to="category/flores">Flores</Nav.Link>
+            <Nav.Link as={Link} to="category/navidad">Navidad</Nav.Link>
+            <Nav.Link as={Link} to="category/varios">Varios</Nav.Link>
           </Nav>
           
           <Nav>
