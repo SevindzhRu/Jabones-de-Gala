@@ -46,6 +46,11 @@
   .bottom {
     margin-bottom: 50px
   }
+
+  .btn {
+    margin: 0 7px;
+  }
+
   
   
   @media (max-width: 600px) {

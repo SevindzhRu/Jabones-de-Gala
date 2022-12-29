@@ -20,7 +20,7 @@ function CustumNavbar() {
           <Nav>
             <Nav.Link>Login</Nav.Link>
             <Nav.Link>Register</Nav.Link>
-            <Nav.Link> <CartWidget  /> </Nav.Link>
+            <Nav.Link as={Link} to="cart"><CartWidget /> </Nav.Link>
             </Nav>
         </Navbar.Collapse>
       </Container>

@@ -87,7 +87,7 @@ export const products = [
       stock: 3,
       idCategory: "varios",
       thumbnail: "https://res.cloudinary.com/ddruporrw/image/upload/v1670216685/Jabones/Jabones/jardin_nlqrcr.jpg",
-      description: "Te hace acordar tus dias en la hacienda de tu abuela"
+      description: "Te hará acordar tus dias en la hacienda de tu abuela"
     },
     {
       id: 11,
@@ -96,6 +96,6 @@ export const products = [
       stock: 6,
       idCategory: "navidad",
       thumbnail: "https://res.cloudinary.com/ddruporrw/image/upload/v1670216685/Jabones/Jabones/bola_de_arbol_cdlud0.jpg",
-      description: "Un adorno fuera de común para tu Arbol"
+      description: "Un adorno fuera de lo común para tu Arbol"
     }
   ];
