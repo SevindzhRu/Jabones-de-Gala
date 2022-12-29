@@ -51,7 +51,7 @@ const ItemDetail = ({ item }) => {
                     <p>Unidades en stock: {item.stock}</p>{
                          itemCount === 0
                          ? <ItemCount stock={item.stock} initial={itemCount} onAdd={onAdd} />
-                         : <Link to='/carrito' style={{textDecoration: "none"}}><Button>CheckOut</Button></Link>
+                         : <Link to='/cart' style={{textDecoration: "none"}}><Button>CheckOut</Button></Link>
                     }
                   
                  
