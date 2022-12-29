@@ -51,6 +51,15 @@
     margin: 0 7px;
   }
 
+  .product-cart {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .product-cart img {
+    max-width: 100px;
+  }
+
   
   
   @media (max-width: 600px) {

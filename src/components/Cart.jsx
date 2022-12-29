@@ -4,7 +4,7 @@ import { CartContext } from './CartContext';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { collection, doc, setDoc, serverTimestamp, updateDoc, increment } from "firebase/firestore";
-import db from '../utils/FirebaseConfig';
+import {db} from '../utils/FirebaseConfig';
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 
