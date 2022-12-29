@@ -20,7 +20,7 @@ import withReactContent from 'sweetalert2-react-content'
       }));
   
       ctx.cartList.forEach(async (item) => {
-        const itemRef = doc(db, "productos", item.idItem);
+        const itemRef = doc(collection (db, "products"), item.idItem);
         await updateDoc(itemRef, {
           stock: increment(-item.qtyItem)
         });
