@@ -1,4 +1,4 @@
-import {Item} from "./Item";
+import {Item} from './Item';
 import Row from 'react-bootstrap/Row';
 
 const ItemList = ({ items }) => {

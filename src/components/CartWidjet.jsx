@@ -1,5 +1,5 @@
 
-import { BsCart } from "react-icons/bs";
+import { BsCart } from 'react-icons/bs';
 import { useContext } from 'react';
 import { CartContext } from './CartContext';
 

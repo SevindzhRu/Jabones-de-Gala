@@ -1,10 +1,10 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import CustumNavbar from "./components/CustumNavbar";
-import  ItemListContainer  from "./components/ItemListContainer";
-import {ItemDetailContainer} from "./components/ItemDetailContainer";
-import CartContextProvider from "./components/CartContext";
-import  Cart  from "./components/Cart";
-import { Footer } from "./components/Footer";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import CustumNavbar from './components/CustumNavbar';
+import  ItemListContainer  from './components/ItemListContainer';
+import {ItemDetailContainer} from './components/ItemDetailContainer';
+import CartContextProvider from './components/CartContext';
+import  Cart  from './components/Cart';
+import { Footer } from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
